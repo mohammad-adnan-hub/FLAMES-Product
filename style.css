@@ -1,0 +1,636 @@
+.home-page,
+.home-page * {
+  box-sizing: border-box;
+}
+.home-page {
+  background: #ffffff;
+  height: 3088px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-1 {
+  background: #e4b5f6;
+  border-radius: 20px;
+  border-style: solid;
+  border-color: rgba(63, 39, 39, 0);
+  border-width: 1px;
+  width: 1388px;
+  height: 171px;
+  position: absolute;
+  left: 26px;
+  top: 23px;
+}
+.resources {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 565px;
+  top: 86px;
+}
+.rectangle-2 {
+  background: #000000;
+  border-radius: 50px;
+  width: 84px;
+  height: 84px;
+  position: absolute;
+  left: 49px;
+  top: 67px;
+}
+.how-it-works {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 763px;
+  top: 86px;
+}
+.fa-qs {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 991px;
+  top: 86px;
+}
+.rectangle-3 {
+  background: #800080;
+  border-radius: 50px;
+  width: 101px;
+  height: 35px;
+  position: absolute;
+  left: 1109px;
+  top: 86px;
+}
+.rectangle-32 {
+  background: #e6e6fa;
+  border-radius: 50px;
+  width: 35px;
+  height: 35px;
+  position: absolute;
+  left: 1175px;
+  top: 86px;
+}
+.rectangle-4 {
+  background: #800080;
+  border-radius: 50px;
+  width: 161px;
+  height: 85px;
+  position: absolute;
+  left: 1240px;
+  top: 61px;
+}
+.join {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 1290px;
+  top: 81px;
+}
+.learn-think-develop {
+  color: #800080;
+  text-align: left;
+  font-family: "Poppins-Bold", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  position: absolute;
+  left: 26px;
+  top: 211px;
+  width: 425px;
+  height: 371px;
+}
+.big-goals-start-small-our-microlearning-platform-helps-students-stay-ahead-with-quick-focused-lessons-that-fit-into-busy-lives-build-knowledge-fast-think-critically-and-grow-smarter-every-day {
+  color: #b13bb1;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 19px;
+  top: 599px;
+  width: 675px;
+  height: 225px;
+}
+.group-2 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-6 {
+  background: #dda0dd;
+  border-radius: 50px;
+  width: 334px;
+  height: 88px;
+  position: absolute;
+  left: 49px;
+  top: 856px;
+}
+.get-started {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 131px;
+  top: 877px;
+}
+.top-resources {
+  color: #800080;
+  text-align: center;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  position: absolute;
+  left: calc(50% - 191px);
+  top: 1372px;
+}
+.group-3 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-5 {
+  background: #800080;
+  border-radius: 30px;
+  width: 1388px;
+  height: 336px;
+  position: absolute;
+  left: 19px;
+  top: 987px;
+}
+.less-is-more-especially-when-you-re-busy-micro-learning-breaks-down-complex-topics-into-short-focused-bursts-that-are-easy-to-absorb-quick-to-apply-and-perfect-for-learning-on-the-go-no-overwhelm-no-wasted-time-just-smart-bite-sized-knowledge-that-sticks {
+  color: #ffffff;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: calc(50% - 609px);
+  top: 1103px;
+  width: 1204px;
+  height: 197px;
+}
+.why-micro-learning {
+  color: #dda0dd;
+  text-align: center;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  position: absolute;
+  left: calc(50% - 274px);
+  top: 1007px;
+}
+.group-4 {
+  position: absolute;
+  inset: 0;
+}
+.card {
+  background: #dda0dd;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: var(--var-sds-color-border-default-default, #d9d9d9);
+  border-width: 1px;
+  padding: var(--var-sds-size-space-600, 24px);
+  display: flex;
+  flex-direction: row;
+  gap: var(--var-sds-size-space-600, 24px);
+  row-gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 290px;
+  height: 378px;
+  min-width: 240px;
+  position: absolute;
+  left: 387px;
+  top: 1496px;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  gap: var(--var-sds-size-space-400, 16px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex: 1;
+  min-width: 160px;
+  position: relative;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  gap: var(--var-sds-size-space-200, 8px);
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.title {
+  color: var(--var-sds-color-text-default-default, #1e1e1e);
+  text-align: left;
+  font-family: var(--heading-font-family, "Inter-SemiBold", sans-serif);
+  font-size: var(--heading-font-size, 24px);
+  line-height: var(--heading-line-height, 120%);
+  letter-spacing: var(--heading-letter-spacing, -0.02em);
+  font-weight: var(--heading-font-weight, 600);
+  position: relative;
+  align-self: stretch;
+}
+.body-text-for-whatever-you-d-like-to-say-add-main-takeaway-points-quotes-anecdotes-or-even-a-very-very-short-story {
+  color: #800080;
+  text-align: left;
+  font-family: var(--body-base-font-family, "Inter-Regular", sans-serif);
+  font-size: var(--body-base-font-size, 16px);
+  line-height: var(--body-base-line-height, 140%);
+  font-weight: var(--body-base-font-weight, 400);
+  position: relative;
+  align-self: stretch;
+}
+.button-group {
+  display: flex;
+  flex-direction: row;
+  gap: var(--var-sds-size-space-400, 16px);
+  align-items: center;
+  justify-content: flex-start;
+  align-self: stretch;
+  flex-shrink: 0;
+  position: relative;
+}
+.button {
+  background: #800080;
+  border-radius: var(--var-sds-size-radius-200, 8px);
+  border-style: solid;
+  border-color: var(--var-sds-color-border-neutral-secondary, #767676);
+  border-width: 1px;
+  padding: var(--var-sds-size-space-300, 12px);
+  display: flex;
+  flex-direction: row;
+  gap: var(--var-sds-size-space-200, 8px);
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.button2 {
+  color: #dda0dd;
+  text-align: left;
+  font-family: var(
+    --single-line-body-base-font-family,
+    "Inter-Regular",
+    sans-serif
+  );
+  font-size: var(--single-line-body-base-font-size, 16px);
+  line-height: var(--single-line-body-base-line-height, 100%);
+  font-weight: var(--single-line-body-base-font-weight, 400);
+  position: relative;
+}
+.card2 {
+  background: #dda0dd;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: var(--var-sds-color-border-default-default, #d9d9d9);
+  border-width: 1px;
+  padding: var(--var-sds-size-space-600, 24px);
+  display: flex;
+  flex-direction: row;
+  gap: var(--var-sds-size-space-600, 24px);
+  row-gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 290px;
+  height: 378px;
+  min-width: 240px;
+  position: absolute;
+  left: 755px;
+  top: 1496px;
+}
+.button3 {
+  background: #800080;
+  border-radius: var(--var-sds-size-radius-200, 8px);
+  border-style: solid;
+  border-color: #767676;
+  border-width: 1px;
+  padding: var(--var-sds-size-space-300, 12px);
+  display: flex;
+  flex-direction: row;
+  gap: var(--var-sds-size-space-200, 8px);
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  position: relative;
+  overflow: hidden;
+}
+.card3 {
+  background: #dda0dd;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: var(--var-sds-color-border-default-default, #d9d9d9);
+  border-width: 1px;
+  padding: var(--var-sds-size-space-600, 24px);
+  display: flex;
+  flex-direction: row;
+  gap: var(--var-sds-size-space-600, 24px);
+  row-gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 290px;
+  height: 378px;
+  min-width: 240px;
+  position: absolute;
+  left: 1123px;
+  top: 1496px;
+}
+.card4 {
+  background: #dda0dd;
+  border-radius: 15px;
+  border-style: solid;
+  border-color: var(--var-sds-color-border-default-default, #d9d9d9);
+  border-width: 1px;
+  padding: var(--var-sds-size-space-600, 24px);
+  display: flex;
+  flex-direction: row;
+  gap: var(--var-sds-size-space-600, 24px);
+  row-gap: 24px;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 290px;
+  height: 378px;
+  min-width: 240px;
+  position: absolute;
+  left: 19px;
+  top: 1496px;
+}
+.group-5 {
+  position: absolute;
+  inset: 0;
+}
+.more {
+  color: #800080;
+  text-align: center;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 40px;
+  font-weight: 500;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 1923px;
+}
+.line-1 {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #dda0dd;
+  border-width: 3px 0 0 0;
+  width: 590px;
+  height: 0px;
+  position: absolute;
+  left: 824px;
+  top: 1953px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.line-2 {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #dda0dd;
+  border-width: 3px 0 0 0;
+  width: 590px;
+  height: 0px;
+  position: absolute;
+  left: 26px;
+  top: 1953px;
+  transform-origin: 0 0;
+  transform: rotate(0deg) scale(1, 1);
+}
+.name {
+  color: #000000;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 558px);
+  top: calc(50% - 1472px);
+  width: 154px;
+}
+.frequently-asked-questions {
+  color: #800080;
+  text-align: center;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 50px;
+  font-weight: 500;
+  position: absolute;
+  left: 50%;
+  translate: -50%;
+  top: 2032px;
+}
+.group-8 {
+  position: absolute;
+  inset: 0;
+}
+.group-7 {
+  width: 1394px;
+  height: 461px;
+  position: static;
+}
+.group-6 {
+  width: 1394px;
+  height: 461px;
+  position: static;
+}
+.rectangle-7 {
+  background: #e4b5f6;
+  border-radius: 10px;
+  width: 1394px;
+  height: 80px;
+  position: absolute;
+  left: 23px;
+  top: 2156px;
+}
+.rectangle-9 {
+  background: #e4b5f6;
+  border-radius: 10px;
+  width: 1394px;
+  height: 80px;
+  position: absolute;
+  left: 23px;
+  top: 2441px;
+}
+.rectangle-10 {
+  background: #e4b5f6;
+  border-radius: 10px;
+  width: 1394px;
+  height: 80px;
+  position: absolute;
+  left: 23px;
+  top: 2348px;
+}
+.rectangle-11 {
+  background: #e4b5f6;
+  border-radius: 10px;
+  width: 1394px;
+  height: 80px;
+  position: absolute;
+  left: 23px;
+  top: 2249px;
+}
+.q-how-is-this-different-from-just-googling-stuff {
+  color: #c441f0;
+  text-align: center;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  position: absolute;
+  left: 37px;
+  top: 2255px;
+}
+.rectangle-8 {
+  background: #e4b5f6;
+  border-radius: 10px;
+  width: 1394px;
+  height: 80px;
+  position: absolute;
+  left: 23px;
+  top: 2537px;
+}
+.q-what-name-do {
+  color: #c441f0;
+  text-align: center;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  position: absolute;
+  left: 37px;
+  top: 2159px;
+}
+.q-can-i-learn-at-my-own-pace {
+  color: #c441f0;
+  text-align: center;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  position: absolute;
+  left: 37px;
+  top: 2543px;
+}
+.q-can-i-access-any-courses-for-free {
+  color: #c441f0;
+  text-align: center;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  position: absolute;
+  left: 37px;
+  top: 2351px;
+}
+.q-can-i-track-my-progress-and-revisit-lessons {
+  color: #c441f0;
+  text-align: center;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 45px;
+  font-weight: 400;
+  position: absolute;
+  left: 37px;
+  top: 2447px;
+}
+.group-9 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-12 {
+  background: #800080;
+  width: 1440px;
+  height: 384px;
+  position: absolute;
+  left: 0px;
+  top: 2704px;
+}
+.line-3 {
+  margin-top: -3px;
+  border-style: solid;
+  border-color: #dda0dd;
+  border-width: 3px 0 0 0;
+  width: 290px;
+  height: 0px;
+  position: absolute;
+  left: calc(50% - 1px);
+  top: 2751px;
+  transform-origin: 0 0;
+  transform: rotate(89.791deg) scale(1, 1);
+}
+.rectangle-13 {
+  background: #000000;
+  border-radius: 50px;
+  width: 85px;
+  height: 85px;
+  position: absolute;
+  left: 26px;
+  top: 2731px;
+}
+.name2 {
+  color: #000000;
+  text-align: left;
+  font-family: "PlayfairDisplay-Bold", sans-serif;
+  font-size: 50px;
+  font-weight: 700;
+  position: absolute;
+  left: calc(50% - 587px);
+  top: calc(50% - -1198px);
+  width: 156px;
+  height: 64px;
+}
+.about-us {
+  color: #dda0dd;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 26px;
+  top: 2896px;
+}
+.contact-us {
+  color: #dda0dd;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 211px;
+  top: 2896px;
+}
+.connect-with-us {
+  color: #dda0dd;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 428px;
+  top: 2896px;
+}
+.copyright {
+  color: #dda0dd;
+  text-align: left;
+  font-family: "Poppins-Regular", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  position: absolute;
+  left: 774px;
+  top: 2774px;
+}
