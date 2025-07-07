@@ -1,0 +1,100 @@
+.webdevelopment-overview,
+.webdevelopment-overview * {
+  box-sizing: border-box;
+}
+.webdevelopment-overview {
+  background: #ffffff;
+  height: 1218px;
+  position: relative;
+  overflow: hidden;
+}
+.rectangle-15 {
+  border-radius: 0px;
+  width: 1440px;
+  height: 134px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  overflow: visible;
+}
+.web-development {
+  color: #000000;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 60px;
+  line-height: 140%;
+  font-weight: 500;
+  position: absolute;
+  left: 440px;
+  top: 25px;
+}
+.overview-of-the-course {
+  color: #800080;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 50px;
+  line-height: 140%;
+  font-weight: 500;
+  position: absolute;
+  left: 41px;
+  top: 167px;
+}
+.what-you-ll-learn {
+  color: #800080;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 50px;
+  line-height: 140%;
+  font-weight: 500;
+  position: absolute;
+  left: 41px;
+  top: 693px;
+}
+.build-stunning-responsive-websites-from-the-ground-up-start-with-the-fundamentals-html-css-and-java-script-and-progress-to-powerful-modern-frameworks-like-react-angular-and-node-js-learn-how-to-design-seamless-user-experiences-with-intuitive-interfaces-create-dynamic-and-interactive-features-and-manage-databases-and-servers-behind-the-scenes-this-course-covers-everything-from-front-end-visuals-to-back-end-logic-giving-you-the-full-skill-set-to-become-a-confident-full-stack-web-developer-whether-you-re-aiming-to-build-personal-projects-freelance-or-join-top-tech-companies-this-course-will-equip-you-to-bring-your-web-ideas-to-life-and-launch-your-coding-career-with-confidence-dive-in-and-start-creating-the-web-of-tomorrow-today {
+  color: #ff00ff;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 30px;
+  line-height: 140%;
+  font-weight: 500;
+  position: absolute;
+  left: 41px;
+  top: 270px;
+  width: 1336px;
+}
+.structure-web-pages-using-html-5-style-them-with-modern-css-make-them-interactive-with-java-script-responsive-design-principles-build-and-publish-your-own-or-screen-size {
+  color: #ff00ff;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 30px;
+  line-height: 140%;
+  font-weight: 500;
+  position: absolute;
+  left: 28px;
+  top: 796px;
+  width: 681px;
+}
+.group-1 {
+  position: absolute;
+  inset: 0;
+}
+.rectangle-16 {
+  background: #800080;
+  border-radius: 20px;
+  width: 332px;
+  height: 84px;
+  position: absolute;
+  left: 1045px;
+  top: 1077px;
+}
+.enroll-now {
+  color: #dda0dd;
+  text-align: left;
+  font-family: "Poppins-Medium", sans-serif;
+  font-size: 30px;
+  line-height: 140%;
+  font-weight: 500;
+  position: absolute;
+  left: 1133px;
+  top: 1098px;
+}
