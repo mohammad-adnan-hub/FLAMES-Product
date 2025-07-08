@@ -6,6 +6,10 @@
     font-family: poppins, 'Times New Roman', Times, serif;
 }
 
+body{
+    background-color:#242423 ;
+}
+
 .nav {
     display: flex;
     justify-content: center;
@@ -16,11 +20,11 @@
     padding: 10px;
     border-radius: 10px;
     font-weight: bold;
-    background-color: #E4B5F6;
+    background-color: #CFDBD5;
 }
 
 .nav h1{
-    color: purple;
+    color: #242423;
 }
 
 .nav a {
@@ -32,7 +36,7 @@
 
 .nav a:hover {
     opacity: 1;
-    color: purple;
+    color: #F5CB5C;
     transform: translateY(-2px);
 }
 
@@ -44,6 +48,6 @@
 }
 
 p {
-    color: plum;
+    color: #CFDBD5;
     font-size: 40px;
 }
