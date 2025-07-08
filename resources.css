@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: poppins, 'Times New Roman', Times, serif;
+
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 10vh;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #E4B5F6;
+}
+
+.nav h1{
+    color: purple;
+}
+
+.nav a {
+    opacity: 0.5;    
+    text-decoration: none;
+    color: inherit;
+    font-size: 32px;
+}
+
+.nav a:hover {
+    opacity: 1;
+    color: purple;
+    transform: translateY(-2px);
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 80px;
+    padding: 20px;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    color: purple
+}
+
+.top_cards {
+    background-color: #dda0dd;
+    padding: 20px;
+    border-radius: 8px;
+    width: 250px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+    transition: transform 0.2s;
+}
+
+.top_cards:hover {
+    transform: translateY(-5px);
+}
+
+.top_cards h2 {
+    margin-top: 0;
+    color: black;
+}
+
+.top_cards button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: purple;
+    color: plum;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.top_cards button:hover {
+    background-color: rgb(245, 113, 190);
+    border-radius: 5px;
+    color: purple;
+}

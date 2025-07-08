@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: poppins, 'Times New Roman', Times, serif;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 10vh;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #E4B5F6;
+}
+
+.nav h1{
+    color: purple;
+}
+
+.nav a {
+    opacity: 0.5;    
+    text-decoration: none;
+    color: inherit;
+    font-size: 32px;
+}
+
+.nav a:hover {
+    opacity: 1;
+    color: purple;
+    transform: translateY(-2px);
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+p {
+    color: plum;
+    font-size: 40px;
+}
