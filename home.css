@@ -26,12 +26,20 @@ body{
     background-color: #CFDBD5;
 }
 
+.logo{
+    text-decoration: none;
+    font-size: 35px;
+    color: black;
+    font-weight: 600;
+    margin-left: 25px;
+}
+
 .nav-right {
     display: flex;
     align-items: center;
     margin-left: auto;
     gap: 25px;
-    
+
 }
 
 .join {
@@ -45,18 +53,43 @@ body{
 #joint{
     text-decoration: none ;
     color: #242423;
+    background-color: #F5CB5C;
 }
 
-.navbar a {
+.nav-right a {
     color: #242423;
     text-decoration: none;
 }
 
-.navbar a:hover {
+.nav-right a:hover {
     background-color: #242423;
     border-radius: 5px;
     color: #CFDBD5;
     padding: 5px;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+    width: 100%;
+}
+
+.hero-left{
+    padding-left: 20px;
+    width: 50%;
+}
+
+.hero-right{
+    width: 50%;
+}
+
+.hero-right img{
+    width: 500px; 
+    height: auto;
+    text-align: center;
+    display: flex;
 }
 
 .Slogan {
@@ -172,9 +205,15 @@ body{
 }
 
 .top_cards button:hover {
-    background-color: #C1A24E;
+    background-color: #c1a24e;
     border-radius: 5px;
     color: #1C1C1C;
+}
+
+.top_cards button a{
+    text-decoration: none;
+    color: #1C1C1C;
+    font-weight: bold;
 }
 
 .more {
@@ -197,7 +236,52 @@ body{
     font-size: 30px;
 }
 
-.faq-box {
+
+.faq-box.active {
+    border: none;
+}
+
+/* Question Section */
+.ques {
+    background-color: #F5CB5C;
+    color: #030303;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    max-width: 60.5%;
+    margin: 10px auto 0;
+    padding: 1rem;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s;
+    font-weight: bold;
+}
+
+/* Hover and Active State for Question */
+.ques:hover,
+.ques.active {
+    background-color: #C1A24E;
+}
+
+/* Answer Section */
+.ans {
+    display: none;
+    padding: 0 10px 15px;
+    background-color: rgba(255, 196, 0, 0.637);
+    overflow: hidden;
+    max-width: 59%;
+    margin: auto;
+}
+
+/* Answer Text */
+.ans p {
+    font-size: 20px;
+    color: #000; /* Fixed 'flood-color' to 'color' */
+    line-height: 1.4;
+}
+
+
+/* .faq-box {
     display: flex;
     margin: 10px auto;
     max-width: 50vw;
@@ -206,25 +290,28 @@ body{
     cursor: pointer;
     color: #242423;
     font-size: 17px;
-}
+} */
 
 .end {
     background-color: #CFDBD5;
     height: 25vh;
     display: flex;
-    /* Flex layout for left and right */
     justify-content: space-between;
-    align-items: center;
-    /* Vertically center both left and right content */
-    padding: 0 50px;
-    /* Optional: space on left/right sides */
     color: white;
-    margin-top: 30px;
-    /* So text is visible on purple */
+    margin-top: 20px;
 }
 
-.left-end,
-.right-end {
+.left-end{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.left-end-up{
+    padding: 10px 0 0 20px;
+}
+
+.left-end-down{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -232,12 +319,11 @@ body{
     align-items: center;
     /* Horizontally center content */
     gap: 70px;
+    padding-left: 40px;
 }
 
 .left-end * {
     text-decoration: none;
     font-weight: bold;
     color: #242423;
-
-
 }
