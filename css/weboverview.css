@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: poppins, 'Times New Roman', Times, serif;
+}
+body{
+    background-color:#242423 ;
+}
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 10vh;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #CFDBD5;
+}
+.nav h1{
+ color: #242423;
+}
+.heading{
+    color: #A5B090;
+    padding-left: 2%;
+}
+#learn{
+    padding-top: 3%;
+}
+.overview{
+    
+    gap: 30px;
+    height: 10vh;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    color: #CFDBD5;
+}
+
+.enroll{
+    margin-top: 13%;
+    margin-left: 90%;
+    padding: 10px 15px;
+    background-color: #F5CB5C;
+    color: #1C1C1C;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.enroll a{
+    text-decoration: none;
+    color: #1C1C1C;
+    font-weight: bold;
+}

@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: poppins, 'Times New Roman', Times, serif;
+}
+
+body{
+    background-color:#242423 ;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    height: 10vh;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: bold;
+    background-color: #CFDBD5;
+}
+
+.nav h1{
+ color: #242423;
+}
+
+.heading{
+    color: #A5B090;
+    padding-left: 2%;
+}
+
+
+
+.bottom-button-bar {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 600px;
+  display: flex;
+  overflow: hidden; /* crop rounded ends */
+  border-radius: 40px; /* capsule shape */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+/* Base button styles */
+.btn {
+  height: 60px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #fff;
+  outline: none;
+}
+
+/* 70% 'Next' button */
+.next-btn {
+  width: 70%;
+  background-color: #F5CB5C;
+  color: #000;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+}
+
+/* 30% 'Ask' button */
+.ask-btn {
+  width: 30%;
+  background-color: grey;
+  border-top-right-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+/* Hover effects */
+.next-btn:hover {
+  background-color: #c1a24e;
+}
+
+.ask-btn:hover {
+  background-color: #000;
+}
+
