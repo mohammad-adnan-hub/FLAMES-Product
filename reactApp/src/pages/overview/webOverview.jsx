@@ -1,6 +1,6 @@
 import React from 'react';
 import '../css/webOverview.css';
-import rectangleImage from '../assets/rectangle-150.svg'; // Adjust path as needed
+import rectangleImage from '../assets/rectangle-150.svg'; 
 
 const WebOverview = () => {
   return (

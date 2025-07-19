@@ -190,6 +190,9 @@ body{
     margin-top: 0;
     color: black;
 }
+.top_cards h2:hover{
+    text-decoration: underline;
+}
 .top_cards p{
     color: #1C1C1C;
 }
