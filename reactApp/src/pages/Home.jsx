@@ -82,7 +82,7 @@ const Home = () => {
           </Link>
           <p>Learn app development step by step with bite-sized lessons...</p>
           <button>
-            <Link to="/overview/app">Enroll Now</Link>
+            <Link to="/overview/App">Enroll Now</Link>
           </button>
         </div>
 

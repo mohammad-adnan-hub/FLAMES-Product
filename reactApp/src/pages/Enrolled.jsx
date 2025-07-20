@@ -1,5 +1,5 @@
 import React from 'react';
-import '../css/enrolled.css';
+import '/src/css/enrolled.css';
 import { Link } from 'react-router-dom';
 
 const Enrolled = () => {

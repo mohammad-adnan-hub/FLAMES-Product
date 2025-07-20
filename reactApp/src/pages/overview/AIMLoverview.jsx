@@ -1,5 +1,6 @@
-import React from 'react';
-import '../css/datasecurityoverview.css'; // Adjust the path based on your project structure
+// import React from 'react';
+import '/src/css/aimloverview.css'; 
+// import { Link } from 'react-router-dom';
 
 const AIMLoverview = () => {
   return (

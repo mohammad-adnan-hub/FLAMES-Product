@@ -1,5 +1,6 @@
-import React from 'react';
-import '../css/c++overview.css'; // Ensure this path is correct in your project
+// import React from 'react';
+import '/src/css/c++overview.css'; 
+// import { Link } from 'react-router-dom';
 
 const Cppoverview = () => {
   return (

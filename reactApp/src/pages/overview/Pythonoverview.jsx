@@ -1,5 +1,6 @@
-import React from 'react';
-import '../css/pythonoverview.css';
+// import React from 'react';
+import '/src/css/pythonoverview.css';
+// import { Link } from 'react-router-dom';
 
 const Pythonoverview = () => {
   return (

@@ -1,5 +1,6 @@
-import React from 'react';
-import '../css/datasecurityoverview.css';
+// import React from 'react';
+import '/src/css/datasecurityoverview.css';
+// import { Link } from 'react-router-dom';
 
 const DataSecurityoverview = () => {
   return (

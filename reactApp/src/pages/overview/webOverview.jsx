@@ -1,8 +1,9 @@
-import React from 'react';
-import '../css/webOverview.css';
-import rectangleImage from '../assets/rectangle-150.svg'; 
+// import React from 'react';
+import '/src/css/weboverview.css';
+// import { Link } from 'react-router-dom';
+// import rectangleImage from '../assets/rectangle-150.svg'; 
 
-const WebOverview = () => {
+const webOverview = () => {
   return (
     <div className="webdevelopment-overview">
       <img className="rectangle-15" src={rectangleImage} alt="Web Development Banner" />
@@ -42,4 +43,4 @@ const WebOverview = () => {
   );
 };
 
-export default WebOverview;
+export default webOverview;

@@ -1,5 +1,6 @@
-import React from 'react';
-import '../css/javaoverview.css';
+// import React from 'react';
+import '/src/css/javaoverview.css';
+// import { Link } from 'react-router-dom';
 
 const Javaoverview = () => {
   return (
