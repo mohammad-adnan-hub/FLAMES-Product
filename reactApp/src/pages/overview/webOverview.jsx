@@ -1,4 +1,4 @@
-// import React from 'react';
+import React from 'react';
 import '/src/css/weboverview.css';
 // import { Link } from 'react-router-dom';
 // import rectangleImage from '../assets/rectangle-150.svg'; 

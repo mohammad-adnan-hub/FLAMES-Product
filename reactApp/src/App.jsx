@@ -33,7 +33,7 @@ const App = () => {
         <Route path="/overview/web" element={<Web/>}/>
         <Route path="/overview/AIML" element={<AIML/>}/>
         <Route path="/overview/java" element={<Java/>}/>
-        <Route path="/overview/C/C++" element={<Cpp/>}/>
+        <Route path="/overview/cpp" element={<Cpp/>}/>
       </Routes>
       </BrowserRouter>
     </div>
