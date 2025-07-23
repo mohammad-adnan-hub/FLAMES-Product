@@ -1,8 +1,21 @@
-import React from "react";
+import React,{useState} from "react";
 import { Link } from "react-router-dom";
 import "../css/home.css";
 
 const Home = () => {
+  const [activeIndex, setActiveIndex] = useState(null);
+
+  const toggleFAQ = (index) => {
+    setActiveIndex(activeIndex === index ? null : index);
+  };
+
+  const faqData = [
+    { q: "What NAME do?", a: "Lorem ipsum dolor sit amet..." },
+    { q: "How is this different from just Googling stuff?", a: "Lorem ipsum dolor sit amet..." },
+    { q: "Can I access any courses for free?", a: "Lorem ipsum dolor sit amet..." },
+    { q: "Can I track my progress and revisit lessons?", a: "Lorem ipsum dolor sit amet..." },
+    { q: "Can I learn at my own pace?", a: "Lorem ipsum dolor sit amet..." },
+  ];
   return (
     <>
       <nav className="navbar">
@@ -64,7 +77,10 @@ const Home = () => {
 
       <div className="top">
         <div className="top_cards" id="one">
-          <Link to="/overview/web" style={{ textDecoration: "none", color: "inherit" }}>
+          <Link
+            to="/overview/web"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
             <h2>Web Development</h2>
           </Link>
           <p>
@@ -77,7 +93,10 @@ const Home = () => {
         </div>
 
         <div className="top_cards" id="two">
-          <Link to="/overview/App" style={{ textDecoration: "none", color: "inherit" }}>
+          <Link
+            to="/overview/App"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
             <h2>App Development</h2>
           </Link>
           <p>Learn app development step by step with bite-sized lessons...</p>
@@ -87,7 +106,10 @@ const Home = () => {
         </div>
 
         <div className="top_cards" id="three">
-          <Link to="/overview/dsa" style={{ textDecoration: "none", color: "inherit" }}>
+          <Link
+            to="/overview/dsa"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
             <h2>DSA</h2>
           </Link>
           <p>Master DSA with bite-sized, beginner-friendly lessons...</p>
@@ -97,7 +119,10 @@ const Home = () => {
         </div>
 
         <div className="top_cards" id="four">
-          <Link to="/overview/python" style={{ textDecoration: "none", color: "inherit" }}>
+          <Link
+            to="/overview/python"
+            style={{ textDecoration: "none", color: "inherit" }}
+          >
             <h2>Python</h2>
           </Link>
           <p>Learn Python step by step with bite-sized lessons...</p>
@@ -107,37 +132,22 @@ const Home = () => {
         </div>
       </div>
 
-      <Link to="/resources" className="more">
-        more
-      </Link>
-
       <section className="faq" id="faq-scroll">
         <h1>Frequently Asked Questions</h1>
+        {faqData.map((faq, index) => (
+          <div className="faq-box" key={index}>
+            <button
+              className={`ques ${activeIndex === index ? "active" : ""}`}
+              onClick={() => toggleFAQ(index)}
+            >
+              Q. {faq.q}
+            </button>
 
-        {[
-          { q: "What NAME do?", a: "Lorem ipsum dolor sit amet..." },
-          {
-            q: "How is this different from just Googling stuff?",
-            a: "Lorem ipsum dolor sit amet...",
-          },
-          {
-            q: "Can I access any courses for free?",
-            a: "Lorem ipsum dolor sit amet...",
-          },
-          {
-            q: "Can I track my progress and revisit lessons?",
-            a: "Lorem ipsum dolor sit amet...",
-          },
-          {
-            q: "Can I learn at my own pace?",
-            a: "Lorem ipsum dolor sit amet...",
-          },
-        ].map((faq, index) => (
-          <div className={`faq-box ${index === 0 ? "active" : ""}`} key={index}>
-            <button className="ques">Q. {faq.q}</button>
-            <div className="ans">
-              <p>{faq.a}</p>
-            </div>
+            {activeIndex === index && (
+              <div className="ans">
+                <p>{faq.a}</p>
+              </div>
+            )}
           </div>
         ))}
       </section>

@@ -3,11 +3,16 @@
 * {
     padding: 0px;
     margin: 0px;
-    font-family: poppins, 'Times New Roman', Times, serif;
-
+    font-family: Poppins, 'Times New Roman', Times, serif;
 }
 
-.nav {
+body {
+    background-color: #242423;
+}
+
+/* ===================== RESOURCES PAGE STYLES ===================== */
+
+.resources-wrapper .nav {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -20,67 +25,75 @@
     background-color: #CFDBD5;
 }
 
-.nav h1{
+.resources-wrapper .nav h1 {
     color: #242423;
 }
 
-.nav a {
-    opacity: 0.5;    
+.resources-wrapper .nav a {
+    opacity: 0.5;
     text-decoration: none;
     color: inherit;
     font-size: 32px;
 }
 
-.nav a:hover {
+.resources-wrapper .nav a:hover {
     opacity: 1;
     color: #F5CB5C;
     transform: translateY(-2px);
 }
 
-body{
-    background-color:#242423 ;
+.resources-wrapper .top {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+    padding: 40px;
+    justify-items: center;
 }
 
-.top {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: flex-start;
-    gap: 80px;
-    padding: 20px;
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    color: #242423;
+@media (max-width: 1024px) {
+    .resources-wrapper .top {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
-.top_cards {
+@media (max-width: 600px) {
+    .resources-wrapper .top {
+        grid-template-columns: 1fr;
+    }
+}
+
+.resources-wrapper .top_cards {
     background-color: #CFDBD5;
     padding: 20px;
     border-radius: 8px;
-    width: 400px;
-    height: 325px;
+    width: 100%;
+    min-height:400px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-    flex-shrink: 0;
+    display: flex;
     transition: transform 0.2s;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.top_cards:hover {
+.resources-wrapper .top_cards:hover {
     transform: translateY(-5px);
 }
 
-.top_cards h2 {
+.resources-wrapper .top_cards h2 {
     margin-top: 0;
     color: black;
     font-size: xx-large;
 }
-.top_cards p {
-    font-size:large;
+
+.resources-wrapper .top_cards p {
+    font-size: large;
+    color: black;
 }
 
-.top_cards button {
+.resources-wrapper .top_cards button {
     margin-top: 10px;
     padding: 10px 15px;
-    background-color:#F5CB5C ;
+    background-color: #F5CB5C;
     color: #1C1C1C;
     border: none;
     border-radius: 4px;
@@ -88,13 +101,13 @@ body{
     font-weight: bold;
 }
 
-.top_cards button:hover {
-    background-color:#C1A24E ;
+.resources-wrapper .top_cards button:hover {
+    background-color: #C1A24E;
     border-radius: 5px;
     color: #1C1C1C;
 }
 
-.top_cards button a{
+.resources-wrapper .top_cards button a {
     text-decoration: none;
     color: #1C1C1C;
     font-weight: bold;

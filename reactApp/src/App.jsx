@@ -14,6 +14,7 @@ import Web from './pages/overview/webOverview'
 import AIML from './pages/overview/AIMLoverview'
 import Java from './pages/overview/Javaoverview'
 import Cpp from './pages/overview/Cppoverview'
+import Signup from './pages/Signup'
 
 const App = () => {
   return (
@@ -24,6 +25,7 @@ const App = () => {
         <Route path="/resources" element={<Resources/>}/>
         <Route path="/enrolled" element={<Enrolled/>}/>
         <Route path="/login" element={<Login/>}/>
+        <Route path="/signup" element={<Signup/>}/>
 
         <Route path="/overview/python" element={<Python/>}/>
         <Route path="/overview/App" element={<AppOverview/>}/>

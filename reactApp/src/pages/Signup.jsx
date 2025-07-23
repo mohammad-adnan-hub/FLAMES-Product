@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../css/login.css';
 import { Link } from 'react-router-dom';
 
-const SignUp = () => {
+const Signup = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
