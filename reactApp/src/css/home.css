@@ -151,6 +151,7 @@ body{
 
 .why h1 {
     color: #242423;
+    font-size: 30px;
 }
 
 .why p {
@@ -170,17 +171,19 @@ body{
     flex-wrap: nowrap;
     overflow-x: auto;
     color: #E8EDDF;
+    font-size: 40px;
 }
 
 .top_cards {
   background-color: #CFDBD5;
   padding: 20px;
   border-radius: 8px;
-  width: 350px; 
-  min-width: 250px; 
+  width: 450px; 
+  min-width: 350px; 
   max-width: 300px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   flex-shrink: 0;
+  height:230px;
   transition: transform 0.2s;
 }
 
@@ -191,20 +194,34 @@ body{
 .top_cards h2 {
     margin-top: 0;
     color: black;
+    font-size: 33px;
+    font-weight: 80px;
 }
 .top_cards h2:hover{
     text-decoration: underline;
+
 }
 .top_cards p{
     color: #1C1C1C;
+    font-size: medium;
 }
 
+#two button{
+    margin-top: 39px;
+}
+#three button{
+    margin-top: 39px;
+}
+#four button{
+    margin-top: 39px;
+}
 .top_cards button {
     margin-top: 10px;
     padding: 10px 15px;
     background-color: #F5CB5C;
     color: #1C1C1C;
     border: none;
+    height: 50px;
     border-radius: 4px;
     cursor: pointer;
 }
@@ -217,8 +234,9 @@ body{
 
 .top_cards button a{
     text-decoration: none;
+    display: flex;
     color: #1C1C1C;
-    font-weight: bold;
+    font-size: medium;
 }
 
 .faq {

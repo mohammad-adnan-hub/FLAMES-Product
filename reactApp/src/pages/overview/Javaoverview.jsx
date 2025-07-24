@@ -26,14 +26,14 @@ const Javaoverview = () => {
         </p>
       </div>
 
-      <h2 className="heading" id="learn">What you'll learn</h2>
-      <ul className="overview">
-        <li>Set up your Java development environment</li>
-        <li>Work with variables, arrays, loops, and strings</li>
-        <li>Understand OOP: classes, inheritance, encapsulation</li>
-        <li>Manage runtime errors with exception handling</li>
-        <li>Build console-based Java applications</li>
-        <li>Develop logic used in real-world software systems</li>
+      <h2 className="heading2" id="learn">What you'll learn</h2>
+      <ul className="overview2">
+        <li><pre>•  Set up your Java development environment</pre></li>
+        <li><pre>•  Work with variables, arrays, loops, and strings</pre></li>
+        <li><pre>•  Understand OOP: classes, inheritance, encapsulation</pre></li>
+        <li><pre>•  Manage runtime errors with exception handling</pre></li>
+        <li><pre>•  Build console-based Java applications</pre></li>
+        <li><pre>•  Develop logic used in real-world software systems</pre></li>
       </ul>
 
       <button className="enroll">Enroll now</button>

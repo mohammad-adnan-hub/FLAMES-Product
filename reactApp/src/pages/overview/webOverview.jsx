@@ -1,21 +1,17 @@
 import React from 'react';
 import '/src/css/weboverview.css';
-// import { Link } from 'react-router-dom';
-// import rectangleImage from '../assets/rectangle-150.svg'; 
 
 const webOverview = () => {
   return (
-    <div className="webdevelopment-overview">
-      <img className="rectangle-15" src={rectangleImage} alt="Web Development Banner" />
+    <div>
+      <div className="nav">
+        <h1>Web Development</h1>
+      </div>
 
-      <div className="web-development">Web Development</div>
-
-      <div className="overview-of-the-course">Overview of the course...</div>
-
-      <div className="what-you-ll-learn">What you’ll learn</div>
-
-      <div className="course-description">
-        Build stunning, responsive websites from the ground up! Start with the
+      <h2 className="heading">Overview of the course</h2>
+      <div className="overview">
+        <p>
+          Build stunning, responsive websites from the ground up! Start with the
         fundamentals—HTML, CSS, and JavaScript—and progress to powerful modern
         frameworks like React, Angular, and Node.js. Learn how to design seamless
         user experiences with intuitive interfaces, create dynamic and interactive
@@ -26,19 +22,19 @@ const webOverview = () => {
         companies, this course will equip you to bring your web ideas to life and
         launch your coding career with confidence. Dive in and start creating the
         web of tomorrow today!
+        </p>
       </div>
 
-      <ul className="course-learnings">
-        <li>Structure web pages using HTML5</li>
-        <li>Style them with modern CSS</li>
-        <li>Make them interactive with JavaScript</li>
-        <li>Responsive design principles</li>
-        <li>Build and publish your own site for any screen size</li>
+      <h2 className="heading2" id="learn">What you'll learn</h2>
+      <ul className="overview2">
+        <li><pre>•  Structure web pages using HTML5</pre></li>
+        <li><pre>•  Style them with modern CSS</pre></li>
+        <li><pre>•  Make them interactive with JavaScript</pre></li>
+        <li><pre>•  Responsive design principles</pre></li>
+        <li><pre>•  Build and publish your own site for any screen size</pre></li>
       </ul>
 
-      <div className="rectangle-16"></div>
-
-      <button className="enroll-now">Enroll Now</button>
+      <button className="enroll">Enroll now</button>
     </div>
   );
 };

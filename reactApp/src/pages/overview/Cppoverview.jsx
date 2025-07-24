@@ -1,5 +1,5 @@
 import React from 'react';
-import '/src/css/c++overview.css'; 
+import '/src/css/weboverview.css';
 // import { Link } from 'react-router-dom';
 
 const Cppoverview = () => {
@@ -29,14 +29,14 @@ const Cppoverview = () => {
         </p>
       </div>
 
-      <h2 className="heading" id="learn">What you'll learn</h2>
-      <ul className="overview">
-        <li>Understand variables, data types, and functions in C</li>
-        <li>Work with pointers, arrays, and dynamic memory</li>
-        <li>Grasp C++ concepts: classes, objects, constructors</li>
-        <li>Use inheritance and polymorphism effectively</li>
-        <li>Solve real-world logic problems and implement algorithms</li>
-        <li>Gain confidence for low-level, high-performance coding</li>
+      <h2 className="heading2" id="learn">What you'll learn</h2>
+      <ul className="overview2">
+        <li><pre>•  Understand variables, data types, and functions in C</pre></li>
+        <li><pre>•  Work with pointers, arrays, and dynamic memory</pre></li>
+        <li><pre>•  Grasp C++ concepts: classes, objects, constructors</pre></li>
+        <li><pre>•  Use inheritance and polymorphism effectively</pre></li>
+        <li><pre>•  Solve real-world logic problems and implement algorithms</pre></li>
+        <li><pre>•  Gain confidence for low-level, high-performance coding</pre></li>
       </ul>
 
       <button className="enroll">Enroll now</button>

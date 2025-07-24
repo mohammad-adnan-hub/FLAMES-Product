@@ -26,14 +26,14 @@ const Pythonoverview = () => {
         </p>
       </div>
 
-      <h2 className="heading" id="learn">What you'll learn</h2>
-      <ul className="overview">
-        <li>Write Python programs using clean syntax and good practices</li>
-        <li>Use loops, conditionals, functions, and data types</li>
-        <li>Handle files, user input, and exceptions</li>
-        <li>Create reusable code with object-oriented programming</li>
-        <li>Automate tasks and build mini projects (calculator, chatbot, etc.)</li>
-        <li>Prepare for paths like data science, automation, or web dev</li>
+      <h2 className="heading2" id="learn">What you'll learn</h2>
+      <ul className="overview2">
+        <li><pre>•  Write Python programs using clean syntax and good practices</pre></li>
+        <li><pre>•  Use loops, conditionals, functions, and data types</pre></li>
+        <li><pre>•  Handle files, user input, and exceptions</pre></li>
+        <li><pre>•  Create reusable code with object-oriented programming</pre></li>
+        <li><pre>•  Automate tasks and build mini projects (calculator, chatbot, etc.)</pre></li>
+        <li><pre>•  Prepare for paths like data science, automation, or web dev</pre></li>
       </ul>
 
       <button className="enroll">Enroll now</button>

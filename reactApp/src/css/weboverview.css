@@ -5,19 +5,23 @@
     margin: 0px;
     font-family: poppins, 'Times New Roman', Times, serif;
 }
+
 body{
+    padding: 0px;
+    margin: 0px;
     background-color:#242423 ;
 }
 .nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
-    height: 10vh;
+    padding: 20px;
     margin: 10px;
-    padding: 10px;
+    height: auto;
     border-radius: 10px;
     font-weight: bold;
+    font-size: 30px;
+    color: #242423;
     background-color: #CFDBD5;
 }
 .nav h1{
@@ -26,21 +30,33 @@ body{
 .heading{
     color: #A5B090;
     padding-left: 2%;
+    font-size: 40px;
 }
 #learn{
     padding-top: 3%;
 }
+.heading2{
+     color: #A5B090;
+    padding-left: 2%;
+    font-size: 40px;
+    margin-top : 40px;
+}
 .overview{
-    
     gap: 30px;
     height: 10vh;
-    margin: 10px;
+    margin-left: 20px;
     padding: 10px;
     border-radius: 10px;
-    font-weight: bold;
     color: #CFDBD5;
 }
-
+.overview2{
+    gap: 30px;
+    height: 10vh;
+    margin-left: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: #CFDBD5;
+}
 .enroll{
     margin-top: 13%;
     margin-left: 90%;

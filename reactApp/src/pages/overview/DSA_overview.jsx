@@ -28,13 +28,13 @@ const DSA_overview = () => {
         </p>
       </div>
 
-      <h2 className="heading" id="learn">What you'll learn</h2>
-      <ul className="overview">
-        <li>Arrays, Strings, Linked Lists</li>
-        <li>Stacks, Queues, Hash Maps</li>
-        <li>Recursion and Time Complexity</li>
-        <li>Sorting, Searching & Binary Trees</li>
-        <li>Solve real coding problems using DSA</li>
+      <h2 className="heading2" id="learn">What you'll learn</h2>
+      <ul className="overview2">
+        <li><pre>•  Arrays, Strings, Linked Lists</pre></li>
+        <li><pre>•  Stacks, Queues, Hash Maps</pre></li>
+        <li><pre>•  Recursion and Time Complexity</pre></li>
+        <li><pre>•  Sorting, Searching & Binary Trees</pre></li>
+        <li><pre>•  Solve real coding problems using DSA</pre></li>
       </ul>
 
       <button className="enroll">Enroll now</button>
