@@ -1,10 +1,11 @@
 import React, { Suspense, lazy } from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './App.css'
+import ScrollToHash from './ScrollToHash';
 
 
 const Home = lazy(() => import("./pages/Home"));
-const Resources = lazy(() => import("./pages/Resources"));
+const Courses = lazy(() => import("./pages/Course"));
 const Enrolled = lazy(() => import("./pages/Enrolled"));
 const Login = lazy(() => import("./pages/Login"));
 const Signup = lazy(() => import("./pages/Signup"));
@@ -17,20 +18,23 @@ const AppOverview = lazy(() => import("./pages/overview/AppOverview"));
 const AIML = lazy(() => import("./pages/overview/AIMLoverview"));
 const Java = lazy(() => import("./pages/overview/Javaoverview"));
 const Cpp = lazy(() => import("./pages/overview/Cppoverview"));
-const Subs = lazy(() => import("./pages/Subscription"))
+const Subs = lazy(() => import("./pages/Subscription"));
+const Profile = lazy(() => import("./pages/LearningDashboard"));
 
 const App = () => {
   return (
     <div>
       <Router>
       <Suspense fallback={<div className="loader">Loading...</div>}>
+      <ScrollToHash />
       <Routes>
         <Route path="/" element={<Home/>} />
-        <Route path="/resources" element={<Resources/>}/>
+        <Route path="/courses" element={<Courses/>}/>
         <Route path="/enrolled" element={<Enrolled/>}/>
         <Route path="/login" element={<Login/>}/>
         <Route path="/signup" element={<Signup/>}/>
         <Route path="/subscription" element={<Subs/>}/>
+        <Route path="/profile" element={<Profile/>}/>
 
         <Route path="/overview/python" element={<Python/>}/>
         <Route path="/overview/App" element={<AppOverview/>}/>

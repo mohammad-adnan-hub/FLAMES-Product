@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import '../css/LearningDashboard.css';
+import { Link } from "react-router-dom";
 
 const LearningDashboard = () => {
   const [activeTab, setActiveTab] = useState('dashboard');
 
   return (
     <div className="container">
-      {/* Sidebar */}
       <aside className="sidebar">
         <div className="logo">●</div>
         <h1 className="brand">NAME</h1>
@@ -34,20 +34,18 @@ const LearningDashboard = () => {
         </nav>
       </aside>
 
-      {/* Main */}
       <main className="main">
         <div className="topbar">
           <div className="nav-links">
-            <a href="#">Resources</a>
-            <a href="#">How it works</a>
-            <a href="#">FAQs</a>
+            <Link to="/resources">Resources</Link>
+            <Link to="/working">How it works</Link>
+            <Link to="/#faq-scroll">FAQs</Link>
           </div>
           <div className="toggle-switch">
             <div className="toggle-circle"></div>
           </div>
         </div>
 
-        {/* Dashboard */}
         <section className={`tab-content ${activeTab !== 'dashboard' ? 'hidden' : ''}`}>
           <h2>Welcome Back 👋</h2>
           <p className="subtext">Here’s a quick look at your learning journey.</p>
@@ -82,7 +80,6 @@ const LearningDashboard = () => {
           </div>
         </section>
 
-        {/* My Learning */}
         <section className={`tab-content ${activeTab !== 'learning' ? 'hidden' : ''}`}>
           <h2>My Learning</h2>
           <div className="course-grid">
@@ -114,7 +111,6 @@ const LearningDashboard = () => {
           </div>
         </section>
 
-        {/* Skills */}
         <section className={`tab-content ${activeTab !== 'skills' ? 'hidden' : ''}`}>
           <h2>Skills Tracking</h2>
           <div className="skills">

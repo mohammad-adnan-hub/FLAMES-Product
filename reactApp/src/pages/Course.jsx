@@ -1,5 +1,5 @@
 import React from "react";
-import "../css/resources.css";
+import "../css/course.css";
 import { Link } from "react-router-dom";
 
 const courses = [
@@ -59,11 +59,11 @@ const courses = [
   },
 ];
 
-const Resources = () => {
+const Course = () => {
   return (
     <div className="resources-wrapper">
       <div className="nav">
-        <h1>Resources</h1>
+        <h1>Course</h1>
         <Link to="/enrolled">Enrolled</Link>
       </div>
 
@@ -84,4 +84,4 @@ const Resources = () => {
   );
 };
 
-export default Resources;
+export default Course;

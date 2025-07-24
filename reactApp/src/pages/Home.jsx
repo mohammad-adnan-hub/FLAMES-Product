@@ -1,19 +1,45 @@
-import React,{useState} from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import "../css/home.css";
 
 const Home = () => {
   const [activeIndex, setActiveIndex] = useState(null);
+  const [showDropdown, setShowDropdown] = useState(false);
 
   const toggleFAQ = (index) => {
     setActiveIndex(activeIndex === index ? null : index);
   };
 
+  const toggleDropdown = () => {
+    setShowDropdown(!showDropdown);
+  };
+
+  const dropdownItems = [
+    "Web Development",
+    "App Development",
+    "DSA",
+    "Python",
+    "C/C++",
+    "Java",
+    "Data Science",
+    "Data Security",
+    "AI/ML"
+  ];
+
   const faqData = [
     { q: "What NAME do?", a: "Lorem ipsum dolor sit amet..." },
-    { q: "How is this different from just Googling stuff?", a: "Lorem ipsum dolor sit amet..." },
-    { q: "Can I access any courses for free?", a: "Lorem ipsum dolor sit amet..." },
-    { q: "Can I track my progress and revisit lessons?", a: "Lorem ipsum dolor sit amet..." },
+    {
+      q: "How is this different from just Googling stuff?",
+      a: "Lorem ipsum dolor sit amet...",
+    },
+    {
+      q: "Can I access any courses for free?",
+      a: "Lorem ipsum dolor sit amet...",
+    },
+    {
+      q: "Can I track my progress and revisit lessons?",
+      a: "Lorem ipsum dolor sit amet...",
+    },
     { q: "Can I learn at my own pace?", a: "Lorem ipsum dolor sit amet..." },
   ];
   return (
@@ -25,10 +51,22 @@ const Home = () => {
           </Link>
         </div>
         <div className="nav-right">
-          <Link to="/resources">Resources</Link>
-          <a href="/How.mp4" target="_blank" rel="noopener noreferrer">
-            How it works
-          </a>
+          <Link to="/courses">Courses</Link>
+          <div className="dropdown-container">
+            <button className="dropdown-toggle" onClick={toggleDropdown}>
+              Resources
+            </button>
+            {showDropdown && (
+              <div className="dropdown-grid">
+                {dropdownItems.map((item, index) => (
+                  <div className="dropdown-item" key={index}>
+                    {item}
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+
           <a href="#faq-scroll">FAQs</a>
           <div className="join">
             <Link to="/login" id="joint" target="_blank">
@@ -59,7 +97,10 @@ const Home = () => {
         </div>
 
         <div className="hero-right">
-          {/* <img src={logo} alt="Hero Section Logo" /> */}
+          <img
+            src="https://sdmntprsouthcentralus.oaiusercontent.com/files/00000000-22dc-61f7-97df-9bea7cb4e66d/raw?se=2025-07-24T12%3A10%3A34Z&sp=r&sv=2024-08-04&sr=b&scid=1873aae2-1d21-5254-8921-89a1edc10f58&skoid=04233560-0ad7-493e-8bf0-1347c317d021&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-07-24T11%3A00%3A39Z&ske=2025-07-25T11%3A00%3A39Z&sks=b&skv=2024-08-04&sig=hQtahyD4UzlFYQnSba6ykFABhwpAUcAEZpv3ciwOqrU%3D"
+            alt="image"
+          />
         </div>
       </div>
 

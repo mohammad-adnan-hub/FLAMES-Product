@@ -6,7 +6,7 @@ const Enrolled = () => {
   return (
     <div>
       <div className="nav">
-        <Link to="/resources">Resources</Link>
+        <Link to="/courses">Course</Link>
         <h1>Enrolled</h1>
       </div>
 
